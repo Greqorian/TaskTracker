@@ -37,7 +37,7 @@ notes.forEach(function (todo, index) {
 })
 
 const  newPar = document.createElement("p");
-newPar.textContent = "new text"
+newPar.textContent = "new ssss text"
 function addP(){ document.querySelector("body").appendChild(newPar)};
 
 document.querySelector('#button').addEventListener('click', ()=>{addP()} )
